@@ -5,8 +5,8 @@ import store from './store'
 import vuetify from './plugins/vuetify';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:3001'
-// axios.defaults.baseURL = 'https://kotak-saran-backend.herokuapp.com'
+// axios.defaults.baseURL = 'http://localhost:3001'
+axios.defaults.baseURL = 'https://kotak-saran-backend.herokuapp.com'
 
 Vue.prototype.$axios = axios;
 
